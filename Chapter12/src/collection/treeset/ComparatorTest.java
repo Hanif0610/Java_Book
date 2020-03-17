@@ -13,7 +13,7 @@ class MyCompare implements Comparator<String> {
 
 public class ComparatorTest {
 	public static void main(String[] args) {
-		Set<String> set = new TreeSet<String>(new MyCompare());
+		Set<String> set = new TreeSet<String>(new MyCompare());	//TreeSet 생성자의 매개변수로 정렬 방식을 지정
 		set.add("aaa");
 		set.add("bbb");
 		set.add("ccc");
